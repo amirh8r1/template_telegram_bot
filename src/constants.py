@@ -8,5 +8,5 @@ keys = SimpleNamespace(
 )
 
 keyboards = SimpleNamespace(
-    main=create_keyboard([keys.random_connect, keys.settings]),
+    main=create_keyboard(keys.random_connect, keys.settings),
 )
